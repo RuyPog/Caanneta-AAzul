@@ -81,7 +81,7 @@ h1:before {
 .canetaX {
     position: relative;
     display: block;
-    background: #000;
+    background: blue;
     width: 30px;
     height: 2px;
     top: 29px;
@@ -89,7 +89,7 @@ h1:before {
     transition: .35s ease-in-out;
 }
 .canetaX:before, .canetaX:after {
-    background:inherit;
+    background: blue;
     content: '';
     display: block;
     width: 100%;
