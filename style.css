@@ -57,6 +57,7 @@ h1:before {
     height: 45px;
     background: #002776;
     font-family: 'Lucida Sans';
+    transition: .25s .07s cubic-bezier(1, 1.1, 0.95, 1.01);
 }
 .Lá_Ele img {
     width: auto;
@@ -123,6 +124,9 @@ input:checked ~ label .canetaX:after {
     bottom: 0;
 }
 input:checked ~ section .face {
+    opacity: 0;
+}
+input:checked ~ .Lá_Ele {
     opacity: 0;
 }
 nav ul {
@@ -214,7 +218,7 @@ section {
     transition: .25s .07s cubic-bezier(1, 1.1, 0.95, 1.01);
 }
     .front, .back {
-    margin-top:300px;
+    margin-top: 300px;
     margin-left: -400px;
     position: absolute;
     width: 200px;
@@ -237,5 +241,8 @@ section {
     top: 25px;
     left: -20px;
     padding: 0 30px;
+}
+    .menuel:hover {
+    box-shadow: 0 0 0 0px #fff, 0 0 0 0px #fff;
 }
 }
